@@ -509,3 +509,73 @@ a {
 .feedback-item .open-quotes {
   width: 60px;
 }
+
+/* ============= Features ================ */
+
+.Features {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+
+.Features .body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Features .left-feature {
+  display: flex;
+  gap: 30px;
+}
+
+.Features .right-feature {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Features .img-feature {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.Features .img-1 {
+  margin-top: 50px;
+}
+
+.Features .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+.Features .btn-feature {
+  width: 137px;
+  height: 50px;
+  margin-top: 32px;
+  background: var(--primary-color);
+  border: none;
+  cursor: pointer;
+}
+
+/* ============= Features 2 ================ */
+
+.features-2nd {
+  margin-top: 70px;
+}
+
+.features-2nd .body {
+  flex-direction: row-reverse;
+}
+
+.features-2nd .right-feature {
+  width: 49%;
+}
+
+.features-2nd .left-feature img {
+  width: 460px;
+  height: 440px;
+}
